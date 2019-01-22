@@ -1,0 +1,7 @@
+C:\Users\saidinesh\source\repos\OOPSConceptSampleProject\OOPSConceptSampleProject\bin\Debug\OOPSConceptSampleProject.exe.config
+C:\Users\saidinesh\source\repos\OOPSConceptSampleProject\OOPSConceptSampleProject\bin\Debug\OOPSConceptSampleProject.exe
+C:\Users\saidinesh\source\repos\OOPSConceptSampleProject\OOPSConceptSampleProject\bin\Debug\OOPSConceptSampleProject.pdb
+C:\Users\saidinesh\source\repos\OOPSConceptSampleProject\OOPSConceptSampleProject\obj\Debug\OOPSConceptSampleProject.csprojAssemblyReference.cache
+C:\Users\saidinesh\source\repos\OOPSConceptSampleProject\OOPSConceptSampleProject\obj\Debug\OOPSConceptSampleProject.csproj.CoreCompileInputs.cache
+C:\Users\saidinesh\source\repos\OOPSConceptSampleProject\OOPSConceptSampleProject\obj\Debug\OOPSConceptSampleProject.exe
+C:\Users\saidinesh\source\repos\OOPSConceptSampleProject\OOPSConceptSampleProject\obj\Debug\OOPSConceptSampleProject.pdb
