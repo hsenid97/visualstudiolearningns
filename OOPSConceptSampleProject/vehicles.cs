@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPSConceptSampleProject
 {
-    class Vehicles
+    abstract class Vehicles
     {
         
         public Vehicles(string color, int wheels)
@@ -32,5 +32,7 @@ namespace OOPSConceptSampleProject
         {
             Console.WriteLine("In the vehicle class \n The number of wheels for this vehicle is "+wheels+"\n the color of the vehicle is "+color);
         }
+
+        public abstract void GetMaxSpeed();
     }
 }

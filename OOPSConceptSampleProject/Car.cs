@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace OOPSConceptSampleProject
 {
-    class Car:Vehicles
+    class Car:Vehicles,IOwnerDetails
     {
-        public Car(string make,int horsepower,string color,int wheels):base(color,wheels)
+        private int speed;
+        public int Speed
         {
+            set { speed = value; }
+            get { return speed; }
+        }
+        public Car(string make,int horsepower,int speed,string color,int wheels):base(color,wheels)
+        {
+            this.speed = speed;
             this.make = make;
             this.horsepower = horsepower;
         }
@@ -30,6 +37,20 @@ namespace OOPSConceptSampleProject
             Console.WriteLine("In the car class\n " +
                         "\nThe car Model "+make+"\nCar horsepower "+horsepower+"kW"+"\ncar Color "+base.Color+"\ncar wheels "+base.Wheels);
             
+        }
+
+        public void GetOwnerName()
+        {
+            Console.WriteLine("\n the name of the owner is dinesh");
+        }
+
+        public void GetOwnerPhoneno()
+        {
+            Console.WriteLine("\n the phone number of the owner is 998767899876");
+        }
+        public override void GetMaxSpeed()
+        {
+            Console.WriteLine("\n the maximum speed of the car is "+speed);
         }
     }
 }

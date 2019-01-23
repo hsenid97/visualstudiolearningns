@@ -14,12 +14,25 @@ namespace OOPSConceptSampleProject
             //vcl.Color = "red";
             //vcl.Wheels = 4;
             //vcl.DisplayFeatures();
-            Car c = new Car("audi",100,"black",4);
+
             //c.Color = "black";
             //c.Wheels = 4;
             //c.Make = "audi";
             //c.HorsePower = 100;
+
+            Car c = new Car("audi", 100,200, "black", 4);
             c.DisplayFeatures();
+            c.GetOwnerName();
+            c.GetOwnerPhoneno();
+            c.GetMaxSpeed();
+            if (Controller.CheckSpeedOfVehicle(c.Speed))
+            {
+                Console.WriteLine("\ncar is in the speed limit");
+            }
+            else
+            {
+                Console.WriteLine("\ncar is above the speed limit");
+            }
             System.Console.ReadKey();
         }
     }
